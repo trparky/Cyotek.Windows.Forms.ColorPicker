@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net48;net35;net40;net452;net462;net472;net5.0-windows;netcoreapp3.1</TargetFrameworks>
+    <TargetFrameworks>net481;net48;net40;net452;net462;net472;net5.0-windows;netcoreapp3.1</TargetFrameworks>
     <UseWindowsForms>true</UseWindowsForms>
     <RootNamespace>Cyotek.Windows.Forms</RootNamespace>
   </PropertyGroup>
@@ -69,6 +69,7 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PackageIcon>icon.png</PackageIcon>
+    <NuGetAuditMode>direct</NuGetAuditMode>
     <!-- https://github.com/NuGet/Home/issues/10791 -->
     <!-- <PackageReadmeFile>nuget-readme.md</PackageReadmeFile> -->
   </PropertyGroup>
